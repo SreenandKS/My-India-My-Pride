@@ -125,6 +125,7 @@ class Form{
         
 
         this.next1.mousePressed(()=>{
+            s.play();
             this.back1.hide();
             this.back2.show();
             this.next1.hide();
