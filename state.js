@@ -154,12 +154,7 @@ class State{
                 u.stop();
                 gs=54;
                 this.n.hide();
-                this.o1 = createElement('h2');
-                this.o1.position(width/2-150,height/2-350);
-                this.o1.html("Lokah Samastah Sukhino Bhavanthu");
-                this.o1.style('fontSize','60px');
-                this.o1.style('background','white');
-                this.o1.style('font','Chiller');
+               
 
                 this.o2 = createElement('h3');
                 this.o2.position(width/2-150,height/2-250);
