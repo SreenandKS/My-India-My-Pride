@@ -143,7 +143,7 @@ class State{
             this.n.position(displayWidth/2+900,displayHeight/2+300);
             this.n.show();
             this.t = createElement('h1');
-            this.t.position(displayWidth/2+200,displayHeight/2-80);
+            this.t.position(displayWidth/2+200,displayHeight/2);
             this.t.html("My India My Pride");
             this.t.style('fontSize','70px');
             this.t.style('color','white');
@@ -157,7 +157,7 @@ class State{
                 this.o1 = createElement('h2');
                 this.o1.position(displayWidth/2-150,displayHeight/2-350);
                 this.o1.html("Lokah Samastah Sukhino Bhavanthu");
-                this.o1.style('fontSize','60px');
+                this.o1.style('fontSize','50px');
                 this.o1.style('background','white');
                 this.o1.style('font','Chiller');
 
@@ -165,12 +165,12 @@ class State{
                 this.o2.position(displayWidth/2-150,displayHeight/2-250);
                 this.o2.html("लोकाः समस्ताः सुखिनो भवन्तु");
                 this.o2.style('background','white');
-                this.o2.style('fontSize','60px');
+                this.o2.style('fontSize','50px');
 
                 this.o3 = createElement('h3');
                 this.o3.position(displayWidth/2-150,displayHeight/2-150);
                 this.o3.html("May all beings everywhere be happy and free and may the thoughts, words and actions of my own life contribute in some way to that happiness and that freedom to all.");
-                this.o3.style('fontSize','60px');
+                this.o3.style('fontSize','50px');
                 this.o3.style('background','white');
             })
         })
