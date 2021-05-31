@@ -86,14 +86,14 @@ class State{
 
     display(){
         
-        this.b1.position(displayWidth/2-200,430);
-        this.b2.position(displayWidth/2+600,430);
-        this.b3.position(displayWidth/2+600,580);
-        this.b4.position(displayWidth/2+600,480);
-        this.b5.position(displayWidth/2-200,530);
-        this.b6.position(displayWidth/2+600,530);
-        this.b7.position(displayWidth/2-200,580);
-        this.b8.position(displayWidth/2-200,480);
+        this.b1.position(displayWidth/2-300,430);
+        this.b2.position(displayWidth/2+500,430);
+        this.b3.position(displayWidth/2+500,580);
+        this.b4.position(displayWidth/2+500,480);
+        this.b5.position(displayWidth/2-300,530);
+        this.b6.position(displayWidth/2+500,530);
+        this.b7.position(displayWidth/2-300,580);
+        this.b8.position(displayWidth/2-300,480);
 
         this.b.mousePressed(()=>{
             this.title1.hide();
@@ -982,34 +982,34 @@ class State{
         this.title2.position(displayWidth/2+350,displayHeight/2-300);
         this.title2.html(" OF INDIA");
         this.title2.style('color','purple');
-        this.button1.position(displayWidth/2+230,550);//displayWidth/2+100,200
-        this.button2.position(displayWidth/2+770,280);//displayWidth/2+250,200
-        this.button3.position(displayWidth/2+820,230);//displayWidth/2+330,200
-        this.button4.position(displayWidth/2+500,300);//displayWidth/2+330,200
-        this.button5.position(displayWidth/2+380,400);//displayWidth/2+580,200
-        this.button6.position(displayWidth/2+90,530);//displayWidth/2+720,200
-        this.button7.position(displayWidth/2+0,350);//displayWidth/2+100,300
-        this.button8.position(displayWidth/2+170,230);//displayWidth/2+190,300
-        this.button9.position(displayWidth/2+200,150);//displayWidth/2+280,300
-        this.button10.position(displayWidth/2+480,350);//displayWidth/2+450,300
-        this.button11.position(displayWidth/2+120,550);//displayWidth/2+570,300
-        this.button12.position(displayWidth/2+150,630);//displayWidth/2+680,300
-        this.button13.position(displayWidth/2+190,350);//displayWidth/2+100,400
-        this.button14.position(displayWidth/2+100,450);//displayWidth/2+250,400
-        this.button15.position(displayWidth/2+840,320);//740
-        this.button16.position(displayWidth/2+730,300);//830
-        this.button17.position(displayWidth/2+800,370);//940
-        this.button18.position(displayWidth/2+860,300);//1030
-        this.button19.position(displayWidth/2+440,430);//460
-        this.button20.position(displayWidth/2+140,180);//540
-        this.button21.position(displayWidth/2+50,250);//620
-        this.button22.position(displayWidth/2+620,250);//730
-        this.button23.position(displayWidth/2+240,630);//810
-        this.button24.position(displayWidth/2+230,490);//930
-        this.button25.position(displayWidth/2+730,350);//1040
-        this.button26.position(displayWidth/2+290,280);//600
-        this.button27.position(displayWidth/2+250,190);//740
-        this.button28.position(displayWidth/2+600,370);//870
+        this.button1.position(displayWidth/2+130,550);//displayWidth/2+100,200
+        this.button2.position(displayWidth/2+670,280);//displayWidth/2+250,200
+        this.button3.position(displayWidth/2+720,230);//displayWidth/2+330,200
+        this.button4.position(displayWidth/2+400,300);//displayWidth/2+330,200
+        this.button5.position(displayWidth/2+280,400);//displayWidth/2+580,200
+        this.button6.position(displayWidth/2-10,530);//displayWidth/2+720,200
+        this.button7.position(displayWidth/2-100,350);//displayWidth/2+100,300
+        this.button8.position(displayWidth/2+70,230);//displayWidth/2+190,300
+        this.button9.position(displayWidth/2+100,150);//displayWidth/2+280,300
+        this.button10.position(displayWidth/2+380,350);//displayWidth/2+450,300
+        this.button11.position(displayWidth/2+20,550);//displayWidth/2+570,300
+        this.button12.position(displayWidth/2+50,630);//displayWidth/2+680,300
+        this.button13.position(displayWidth/2+90,350);//displayWidth/2+100,400
+        this.button14.position(displayWidth/2,450);//displayWidth/2+250,400
+        this.button15.position(displayWidth/2+740,320);//740
+        this.button16.position(displayWidth/2+630,300);//830
+        this.button17.position(displayWidth/2+700,370);//940
+        this.button18.position(displayWidth/2+760,300);//1030
+        this.button19.position(displayWidth/2+340,430);//460
+        this.button20.position(displayWidth/2+40,180);//540
+        this.button21.position(displayWidth/2-50,250);//620
+        this.button22.position(displayWidth/2+520,250);//730
+        this.button23.position(displayWidth/2+140,630);//810
+        this.button24.position(displayWidth/2+130,490);//930
+        this.button25.position(displayWidth/2+630,350);//1040
+        this.button26.position(displayWidth/2+190,280);//600
+        this.button27.position(displayWidth/2+150,190);//740
+        this.button28.position(displayWidth/2+500,370);//870
 
        
         this.button1.mousePressed(()=>{
