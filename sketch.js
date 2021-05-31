@@ -81,9 +81,7 @@ function setup(){
     back = createButton('BACK');
     back.position(displayWidth/2+1000,700);
     back.hide();
-if(gs===0){
-   s.play();
-}
+s.play();
     // if(gs===0){
        
     // }
